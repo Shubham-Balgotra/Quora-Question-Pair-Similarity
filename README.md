@@ -1,20 +1,27 @@
 # Quora-Question-Pair-Similarity
 Introduction:
+
 Quora is a popular question-and-answer platform where users can ask questions and get answers from the community. One of the challenges faced by Quora is to identify similar questions to improve user experience and provide relevant content. In this case study, we will explore the task of determining question pair similarity on Quora.
 
 Problem Statement:
+
 Given a pair of questions from Quora, our goal is to build a machine learning model that can accurately predict whether the two questions are similar or not. This problem is a binary classification task, where the model needs to classify question pairs as either similar or dissimilar.
 
 Data Collection and Exploration:
-To train our model, we need a labeled dataset of question pairs along with their similarity labels. Quora provides a publicly available dataset for this task. The dataset contains pairs of questions from Quora and their corresponding labels indicating if they are similar or not.
 
+To train our model, we need a labeled dataset of question pairs along with their similarity labels. Quora provides a publicly available dataset for this task. The dataset contains pairs of questions from Quora and their corresponding labels indicating if they are similar or not.
 Once the dataset is downloaded, we can explore it to gain insights into the data. Some initial analysis could include:
 
-Checking the distribution of labels: Determine the proportion of similar and dissimilar question pairs in the dataset. Imbalanced datasets might require special handling during model training.
+Checking the distribution of labels: 
 
-Exploring the text data: Analyze the length and structure of the questions. Look for any patterns, common words, or special characters that might be important for determining similarity.
+Determine the proportion of similar and dissimilar question pairs in the dataset. Imbalanced datasets might require special handling during model training.
+
+Exploring the text data: 
+
+Analyze the length and structure of the questions. Look for any patterns, common words, or special characters that might be important for determining similarity.
 
 Preprocessing and Feature Engineering:
+
 Before training the model, we need to preprocess the text data and engineer relevant features. Some common preprocessing steps include:
 
 Tokenization: Split the questions into individual words or tokens.
