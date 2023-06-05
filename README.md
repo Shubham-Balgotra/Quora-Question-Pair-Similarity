@@ -30,12 +30,13 @@ Lemmatization or stemming: Reduce words to their base or root form.
 Handling special characters: Remove or normalize special characters, punctuation, and numbers.
 Vectorization: Convert the text data into numerical representations that machine learning models can process. Common techniques include bag-of-words, TF-IDF, or word embeddings such as Word2Vec or GloVe.
 In addition to preprocessing, feature engineering can help improve model performance. Some potential features for this task could include:
-
 Word overlap: Count the number of common words or overlapping tokens between the question pairs.
 Length difference: Calculate the absolute or relative difference in the length of the questions.
 Cosine similarity: Measure the cosine similarity between vector representations of the questions.
 N-gram features: Include n-gram representations to capture local context and phrase-level information.
+
 Model Training and Evaluation:
+
 Once the data is preprocessed and features are engineered, we can proceed with training a machine learning model. Several algorithms can be used for this task, including:
 
 Logistic Regression
