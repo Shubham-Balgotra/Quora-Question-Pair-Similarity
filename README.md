@@ -1,4 +1,5 @@
 # Quora-Question-Pair-Similarity
+![Quora](Quora_logo.png)
 # Introduction:
 Quora is a popular question-and-answer platform where users can ask questions and get answers from the community. One of the challenges faced by Quora is to identify similar questions to improve user experience and provide relevant content. In this case study, we will explore the task of determining question pair similarity on Quora.
 
